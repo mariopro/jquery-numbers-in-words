@@ -1,4 +1,4 @@
-# jquery-numbers-in-words
+# jQuery-numbers-in-words
 Number to words converter 
 
 # Write Numbers in Words
@@ -24,7 +24,7 @@ Short script for writing numbers in words
 NUMBERS IN WORDS
 Números por Extenso v.3.2
 +
-- v.1.0  20.01.2026 jquery version
+- v.1.0  20.01.2026 jQuery version
 
 created by: MarioPro
 
@@ -34,18 +34,18 @@ OPTIONS
  - short scale    BR US
  - long scale     PT UK
 
-<small><em>For most of the 19th and 20th centuries, the United Kingdom uniformly used the long scale, while the United States of America used the short scale, so that usage of the two systems was often referred to as “British” and “American” respectively. In 1974, the government of the UK abandoned the long scale, so that the UK now applies the short scale interpretation exclusively in mass media and official usage.</em></small>
+<small><em>For most of the 19th and 20th centuries, the United Kingdom uniformly used the long scale. In contrast, the United States of America used the short scale, so that the two systems were often referred to as “British” and “American,” respectively. In 1974, the government of the UK abandoned the long scale, so that the UK now applies the short scale interpretation exclusively in mass media and official usage.</em></small>
 
 <br/>
   
 @string number to convert<br/>
 @string scale - default long scale EN
 
-```javascript
+```JavaScript
 $('#id').numbersinwords('1575.20','PT');
 ```
 mil, quinhentos e setenta e cinco vírgula vinte
-```javascript
+```JavaScript
 $('#id').numbersinwords('1575.20','UK');
 ```
 One thousand, five hundred and seventy-five euros and twenty cents.
@@ -61,12 +61,12 @@ OPTIONS
 @string scale - default long scale PT<br/>
 @string coin  - default EUR<br/>
 
-```javascript
+```JavaScript
 $('#id').moneyInWords('1575.20','PT','EUR');
 ```
 mil, quinhentos e setenta e cinco euros e vinte cêntimos
 
-```javascript
+```JavaScript
 $('#id').moneyInWords('1575,20'.'US','USD');
 ```
-One thousand, five hundred and seventy five dollars and twenty cents
+One thousand, five hundred and seventy-five dollars and twenty cents
