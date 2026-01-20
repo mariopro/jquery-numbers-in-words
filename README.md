@@ -1,4 +1,4 @@
-# jquery-numbersinwords
+# jquery-numbers-in-words
 Number to words converter 
 
 # Write Numbers in Words
